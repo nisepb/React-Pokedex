@@ -13,7 +13,7 @@ class App extends Component {
 
   componentDidMount() {
     this.getMorePokemon();
-  }
+  }   
 
   getMorePokemon() {
     let url = "https://pokeapi.co/api/v2/pokemon?offset=" + this.state.offset + "&limit=" + this.state.loadNumber;
